@@ -1,0 +1,70 @@
+/*Estilos generales*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(imagenes/fondoPizzeria.jpg);
+}
+
+/*Contenido*/
+
+#contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    width: 80vh;
+    max-width: 600px;
+    background-color: aliceblue;
+    border: 4px solid black
+}
+
+h1{
+    font-size: 3rem;
+    width: 100%;
+    margin: 20px 10px;
+}
+
+.topping{
+    font-size: 2rem;
+    font-weight: bold;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    margin: 20px 0;
+}
+
+ul{
+    width: 100%;
+    height: 100%;
+}
+.fondo-marron:hover{
+    background-color: rgb(255, 184, 78);
+}
+.fondo-marron{
+    background-color: chocolate;
+}
+.fondo-naranja{
+    background-color: orange;
+}
+.fondo-naranja:hover{
+    background-color: darksalmon;
+}
+
+.textoVerde{
+    color:rgb(6, 255, 6);
+}
